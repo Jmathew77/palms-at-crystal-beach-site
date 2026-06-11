@@ -49,6 +49,7 @@ main > section {
 
 #rv-sites {
   order: 1;
+  padding-top: clamp(34px, 4vw, 54px);
 }
 
 .intro {
@@ -327,7 +328,13 @@ h3 {
 
 .hero-actions {
   justify-content: center;
-  margin-top: 22px;
+  margin-top: 28px;
+}
+
+.hero-actions .link-button.large {
+  min-height: 44px;
+  padding-inline: 20px;
+  font-size: 13px;
 }
 
 .hero-facts {
