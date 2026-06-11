@@ -356,9 +356,41 @@ h3 {
   text-align: center;
 }
 
+.rates-heading {
+  max-width: 1040px;
+}
+
 .section-heading p:not(.eyebrow) {
   color: var(--muted);
   font-size: 18px;
+}
+
+.rate-summary {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin: 22px auto 18px;
+}
+
+.rate-summary span {
+  min-height: 84px;
+  padding: 14px 12px;
+  border: 1px solid rgba(31, 166, 168, 0.34);
+  border-radius: var(--radius-sm);
+  background: rgba(221, 242, 239, 0.66);
+  color: var(--deep);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.rate-summary strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--palm-green);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  line-height: 1;
 }
 
 .section-grid {
@@ -889,6 +921,10 @@ details p {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .rate-summary {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -928,6 +964,14 @@ details p {
   .image-row,
   .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .rate-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rate-summary span {
+    min-height: 76px;
   }
 
   .rate-card.event-rate,
