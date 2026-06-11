@@ -34,6 +34,31 @@ body {
   line-height: 1.6;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > section {
+  order: 10;
+}
+
+.hero {
+  order: 0;
+}
+
+#rv-sites {
+  order: 1;
+}
+
+.intro {
+  order: 2;
+}
+
+.why-section {
+  order: 3;
+}
+
 img,
 video {
   display: block;
@@ -332,6 +357,23 @@ h3 {
   padding: clamp(72px, 10vw, 118px) clamp(18px, 4vw, 54px);
 }
 
+.intro.section-band {
+  padding-block: clamp(34px, 4vw, 54px);
+}
+
+.why-section {
+  padding-block: clamp(34px, 4vw, 56px);
+}
+
+.why-section .section-heading {
+  margin-bottom: 18px;
+}
+
+.intro h2,
+.why-section h2 {
+  font-size: clamp(30px, 3.8vw, 46px);
+}
+
 .section-band {
   background: linear-gradient(180deg, var(--soft-aqua), #eef6f1);
 }
@@ -522,7 +564,7 @@ h3 {
 .choice-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 12px;
 }
 
 .amenity-grid article,
@@ -535,9 +577,30 @@ h3 {
 }
 
 .choice-grid article {
-  min-height: 194px;
+  min-height: 138px;
   border-color: rgba(31, 166, 168, 0.18);
+  padding: 16px;
   box-shadow: 0 12px 30px rgba(13, 44, 43, 0.06);
+}
+
+.why-section .choice-grid article::before {
+  height: 3px;
+  margin-bottom: 12px;
+}
+
+.why-section .choice-grid h3 {
+  font-size: 17px;
+}
+
+.why-section .choice-grid h3 span {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.why-section .choice-grid p {
+  font-size: 14px;
+  line-height: 1.45;
 }
 
 .amenity-grid h3,
