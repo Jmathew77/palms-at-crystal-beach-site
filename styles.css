@@ -515,6 +515,20 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.beach-house-images {
+  display: grid;
+  gap: 14px;
+}
+
+.beach-house-images img {
+  aspect-ratio: 16 / 9;
+}
+
+.beach-house-images img + img {
+  width: 88%;
+  margin-left: auto;
+}
+
 .text-link {
   color: var(--beach-turquoise);
   font-weight: 900;
