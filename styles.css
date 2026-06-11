@@ -408,34 +408,6 @@ h3 {
   font-size: 18px;
 }
 
-.rate-summary {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 10px;
-  margin: 22px auto 18px;
-}
-
-.rate-summary span {
-  min-height: 84px;
-  padding: 14px 12px;
-  border: 1px solid rgba(31, 166, 168, 0.34);
-  border-radius: var(--radius-sm);
-  background: rgba(221, 242, 239, 0.66);
-  color: var(--deep);
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 1.25;
-}
-
-.rate-summary strong {
-  display: block;
-  margin-bottom: 4px;
-  color: var(--palm-green);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 30px;
-  line-height: 1;
-}
-
 .section-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -455,13 +427,13 @@ h3 {
 .rates-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  gap: 16px;
 }
 
 .rate-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 22px 24px;
   background: #fff;
   box-shadow: 0 12px 30px rgba(13, 44, 43, 0.08);
 }
@@ -505,14 +477,15 @@ h3 {
 }
 
 .rate-card h3 {
-  margin: 12px 0 0;
+  margin: 8px 0 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 500;
   letter-spacing: 0;
 }
 
 .rate-card ul {
+  font-size: 15px;
   padding-left: 18px;
   margin-bottom: 0;
 }
@@ -985,10 +958,6 @@ details p {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .rate-summary {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1028,14 +997,6 @@ details p {
   .image-row,
   .gallery-grid {
     grid-template-columns: 1fr;
-  }
-
-  .rate-summary {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .rate-summary span {
-    min-height: 76px;
   }
 
   .rate-card.event-rate,
