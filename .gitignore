@@ -1,0 +1,6 @@
+assets/video/*.mp4
+assets/video/*.mov
+assets/video/*.webm
+*.log
+.DS_Store
+Thumbs.db
