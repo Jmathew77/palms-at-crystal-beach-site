@@ -20,20 +20,11 @@ The site includes:
 
 ## Banner Video
 
-The original banner video is currently about 82 MiB:
+The original banner video is hosted through Cloudflare R2:
 
-`Paual_sVineyardWebLoop.mp4`
+`https://assets.palmsatcrystalbeach.com/Paual_sVineyardWebLoop.mp4`
 
-Cloudflare Pages has a 25 MiB maximum size for a single site asset, so the video should not be uploaded directly to Pages in its current form. The local draft uses the video for preview, but the deployable ZIP excludes it. For production, host the video at a future URL such as:
-
-`https://static.palmsatcrystalbeach.com/palms-loop.mp4`
-
-Best options:
-
-- Compress the video below 25 MiB and place it at `assets/video/palms-loop.mp4`, then update the hero video source.
-- Host the full video through Cloudflare R2, Cloudflare Stream, or another video CDN and update the hero video URL.
-
-Until then, the hero uses the optimized aerial image as its poster/background.
+Cloudflare Pages has a 25 MiB maximum size for a single site asset, so the video is intentionally not committed to this repo. The hero video loads from the R2 custom domain.
 
 ## Items To Confirm
 
