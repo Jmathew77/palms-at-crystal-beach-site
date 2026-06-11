@@ -79,44 +79,28 @@ a {
   position: relative;
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: 50px;
+  height: 50px;
   border: 2px solid currentColor;
   border-radius: 50%;
   font-family: Georgia, serif;
-  font-size: 24px;
+  font-size: 0;
   line-height: 1;
+  overflow: hidden;
 }
 
-.palm-leaf,
-.palm-leaf::before,
-.palm-leaf::after {
-  position: absolute;
-  display: block;
-  width: 17px;
-  height: 6px;
-  border-radius: 999px 999px 999px 0;
-  background: var(--sun);
-  content: "";
-  transform-origin: left center;
+.brand-palm {
+  width: 38px;
+  height: 38px;
+  overflow: visible;
 }
 
-.palm-leaf {
-  top: 4px;
-  right: 5px;
-  transform: rotate(-22deg);
-}
-
-.palm-leaf::before {
-  left: 0;
-  top: 0;
-  transform: rotate(46deg);
-}
-
-.palm-leaf::after {
-  left: 0;
-  top: 0;
-  transform: rotate(92deg);
+.brand-palm path {
+  fill: none;
+  stroke: var(--sun-gold);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .brand strong,
