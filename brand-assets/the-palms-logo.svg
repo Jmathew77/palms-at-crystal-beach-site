@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">The Palms at Crystal Beach RV Resort logo</title>
+  <desc id="desc">A circular dark green and gold palm tree logo for The Palms at Crystal Beach RV Resort.</desc>
+  <defs>
+    <linearGradient id="sand" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FAF7EF"/>
+      <stop offset="1" stop-color="#F5EFE3"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#F2B84B"/>
+      <stop offset="1" stop-color="#1FA6A8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#sand)"/>
+  <circle cx="600" cy="500" r="270" fill="#0B3D35"/>
+  <circle cx="600" cy="500" r="238" fill="none" stroke="#FAF7EF" stroke-width="18"/>
+  <path d="M580 655c20-96 37-177 51-243" fill="none" stroke="#F2B84B" stroke-width="34" stroke-linecap="round"/>
+  <path d="M628 413c-72-58-148-68-228-32 75 4 139 18 193 74" fill="none" stroke="#F2B84B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M642 408c-50-83-117-130-203-141 63 45 112 95 142 167" fill="none" stroke="#F2B84B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M648 401c-5-89 21-159 78-212-16 73-25 139-21 201" fill="none" stroke="#F2B84B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M660 412c70-72 145-96 227-73-68 17-128 45-180 89" fill="none" stroke="#F2B84B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M648 427c83-16 154 0 213 48-64-10-125-11-184-2" fill="none" stroke="#F2B84B" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M484 650c70 42 159 42 230 0" fill="none" stroke="#1FA6A8" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="885" text-anchor="middle" fill="#0B3D35" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700">The Palms</text>
+  <text x="600" y="965" text-anchor="middle" fill="#073F3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="1">AT CRYSTAL BEACH RV RESORT</text>
+  <rect x="430" y="1015" width="340" height="10" rx="5" fill="url(#aqua)"/>
+</svg>
