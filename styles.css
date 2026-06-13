@@ -86,7 +86,8 @@ a {
 }
 
 .site-header.scrolled,
-.site-header.open {
+.site-header.open,
+.site-header.solid {
   color: var(--ink);
   background: rgba(251, 250, 245, 0.96);
   box-shadow: 0 10px 32px rgba(6, 59, 58, 0.12);
@@ -194,7 +195,7 @@ a {
 }
 
 .link-button.secondary,
-.site-header:not(.scrolled):not(.open) .link-button.ghost {
+.site-header:not(.scrolled):not(.open):not(.solid) .link-button.ghost {
   background: transparent;
   border-color: currentColor;
 }
@@ -826,6 +827,23 @@ h3 {
   background: linear-gradient(180deg, #fff, var(--warm-cream));
 }
 
+.rules-page-main {
+  padding-top: 78px;
+}
+
+.rules-page .rules-section {
+  min-height: calc(100vh - 160px);
+  padding-top: clamp(56px, 7vw, 88px);
+}
+
+.rules-page h1 {
+  max-width: none;
+  margin-bottom: 14px;
+  color: var(--ink);
+  font-size: clamp(42px, 6vw, 68px);
+  opacity: 1;
+}
+
 .rules-panel {
   width: min(1080px, 100%);
   margin-inline: auto;
@@ -846,8 +864,11 @@ h3 {
   background: var(--soft-aqua);
 }
 
+.rules-panel-header h2,
 .rules-panel-header h3 {
   margin-bottom: 4px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(24px, 3vw, 34px);
 }
 
 .rules-panel-header p {
