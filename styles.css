@@ -240,7 +240,7 @@ button {
 
 .hero {
   position: relative;
-  min-height: clamp(360px, 44vh, 460px);
+  min-height: clamp(415px, 51vh, 530px);
   display: grid;
   align-items: end;
   overflow: hidden;
@@ -1062,7 +1062,7 @@ details p {
   }
 
   .hero {
-    min-height: 470px;
+    min-height: 540px;
   }
 
   .hero-content {
