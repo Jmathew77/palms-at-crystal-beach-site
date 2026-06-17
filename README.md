@@ -1,6 +1,6 @@
 # The Palms at Crystal Beach RV Resort
 
-Static website draft for `palmsatcrystalbeach.com`.
+Static website draft for `palmsatcrystalbeachrvresort.com`.
 
 ## Cloudflare Pages
 

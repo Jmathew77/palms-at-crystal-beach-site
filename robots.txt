@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://palmsatcrystalbeach.com/sitemap.xml
+Sitemap: https://palmsatcrystalbeachrvresort.com/sitemap.xml
