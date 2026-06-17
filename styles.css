@@ -510,7 +510,6 @@ h3 {
 }
 
 .rate-card.event-rate {
-  grid-column: span 2;
   background: #fff7e8;
   border-color: rgba(31, 166, 168, 0.32);
 }
