@@ -1,20 +1,20 @@
 :root {
-  --ink: #16302f;
-  --muted: #62706d;
-  --palm-green: #0b3d35;
-  --deep-teal: #073f3a;
-  --sand: #f5efe3;
-  --warm-cream: #faf7ef;
+  --ink: #123b3b;
+  --muted: #5e7371;
+  --palm-green: #075246;
+  --deep-teal: #064650;
+  --sand: #eef8f4;
+  --warm-cream: #fbfaf2;
   --sun-gold: #f2b84b;
-  --beach-turquoise: #1fa6a8;
-  --soft-aqua: #ddf2ef;
-  --deep: var(--palm-green);
-  --palm: #14735f;
+  --beach-turquoise: #16b6c2;
+  --soft-aqua: #d7f5f0;
+  --deep: var(--deep-teal);
+  --palm: #0b766e;
   --aqua: var(--beach-turquoise);
   --sun: var(--sun-gold);
   --shell: var(--warm-cream);
-  --line: rgba(22, 48, 47, 0.14);
-  --shadow: 0 18px 45px rgba(13, 44, 43, 0.16);
+  --line: rgba(22, 182, 194, 0.22);
+  --shadow: 0 18px 45px rgba(4, 70, 80, 0.14);
   --radius: 8px;
 }
 
@@ -206,6 +206,16 @@ button {
   transform: translateY(-1px);
 }
 
+.link-button {
+  border-color: #08727a;
+  background: linear-gradient(135deg, #075246, #098a8f);
+}
+
+.link-button:hover {
+  border-color: var(--sun-gold);
+  background: linear-gradient(135deg, #08727a, #16b6c2);
+}
+
 .link-button.secondary,
 .site-header:not(.scrolled):not(.open):not(.solid) .link-button.ghost {
   background: transparent;
@@ -272,6 +282,12 @@ button {
   background:
     linear-gradient(90deg, rgba(5, 33, 32, 0.76), rgba(5, 33, 32, 0.38) 44%, rgba(5, 33, 32, 0.16)),
     linear-gradient(0deg, rgba(5, 33, 32, 0.62), transparent 48%);
+}
+
+.hero-shade {
+  background:
+    linear-gradient(90deg, rgba(5, 45, 43, 0.78), rgba(6, 70, 80, 0.44) 48%, rgba(22, 182, 194, 0.2)),
+    linear-gradient(0deg, rgba(5, 45, 43, 0.66), transparent 52%);
 }
 
 .hero-content {
@@ -413,6 +429,17 @@ h3 {
   background: linear-gradient(180deg, var(--soft-aqua), #eef6f1);
 }
 
+.section-band {
+  background: linear-gradient(180deg, #d6f5f0, #f5fbf6);
+}
+
+.hero-content::before,
+.amenity-grid article::before,
+.choice-grid article::before,
+.local-seo-section .section-grid::before {
+  background: linear-gradient(90deg, var(--sun-gold), var(--beach-turquoise), #7edbd8);
+}
+
 .section-heading,
 .section-grid,
 .rates-grid,
@@ -476,6 +503,10 @@ h3 {
 .rate-card.featured {
   background: var(--deep-teal);
   color: #fff;
+}
+
+.rate-card.featured {
+  background: linear-gradient(145deg, #064650, #098a8f);
 }
 
 .rate-card.event-rate {
@@ -743,6 +774,12 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.final-cta {
+  background:
+    linear-gradient(135deg, rgba(6, 70, 80, 0.96), rgba(9, 138, 143, 0.9)),
+    url("assets/images/palms.jpg") center / cover;
+}
+
 .final-cta h2 {
   max-width: 720px;
 }
@@ -802,6 +839,14 @@ h3 {
 .gallery-filters button.active {
   background: var(--deep-teal);
   color: #fff;
+}
+
+.gallery-filters button.active {
+  background: linear-gradient(135deg, #075246, #16b6c2);
+}
+
+.gallery-filters button {
+  border-color: rgba(22, 182, 194, 0.36);
 }
 
 .gallery-filters button:hover {
