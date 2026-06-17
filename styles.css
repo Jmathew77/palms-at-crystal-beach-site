@@ -557,6 +557,7 @@ h3 {
 }
 
 .site-map-card {
+  width: min(1040px, 100%);
   margin-top: 34px;
   padding: clamp(18px, 3vw, 28px);
   border: 1px solid rgba(31, 166, 168, 0.28);
@@ -588,6 +589,8 @@ h3 {
 .site-map-image {
   display: block;
   overflow: hidden;
+  max-width: 960px;
+  margin-inline: auto;
   border: 1px solid rgba(7, 63, 58, 0.15);
   border-radius: var(--radius);
   background: #fff;
@@ -601,9 +604,11 @@ h3 {
 
 .site-map-legend {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+  max-width: 960px;
   margin-top: 14px;
+  margin-inline: auto;
   text-align: left;
 }
 
