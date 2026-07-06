@@ -1,4 +1,4 @@
-# The Palms at Crystal Beach RV Resort
+# The Palms at Crystal Beach RV Park
 
 Static website draft for `palmsatcrystalbeachrvresort.com`.
 
@@ -29,6 +29,6 @@ Cloudflare Pages has a 25 MiB maximum size for a single site asset, so the video
 ## Items To Confirm
 
 - Final beach house booking link
-- Final email address for the rebranded resort
+- Final email address for the rebranded park
 - Whether to keep the existing Rent Manager booking and tenant login URLs
 - Any policy details for pets, parking, utilities, minimum stays, and holiday dates
